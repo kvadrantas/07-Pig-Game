@@ -1,0 +1,43 @@
+/* Iphone X landscape */
+@media only screen and (max-width: 812px) {
+    body {
+        height: 370px;
+    }
+
+    main {
+        height: 370px;
+        margin-top: 5px;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+
+    .player--0 {
+        padding-left: 150px;
+        padding-top: 0;
+    }
+
+    .player--1 {
+        padding-right: 150px;
+        padding-top: 0;
+    }
+
+    .dice {
+        top: 40%;
+    }
+
+    .btn--new {
+        top: 2rem;
+    }
+}
+
+/* For small phones to small tablets from 481 to 767px */
+@media only screen and (max-width: 767px) {
+   
+}
